@@ -110,7 +110,7 @@ We use the following metrics to assess model performance:
 - **Cosine Similarity**  
 - **BERTScore**  
 
-Results are saved in `results/context_learning/metrics` and `results/fine_tuning/metrics`.  
+Results are saved in `results/context_learning/` and `results/fine_tuning/`.  
 
 ## License  
 
