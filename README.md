@@ -92,6 +92,14 @@ Evaluate fine-tuned models with:
 python code/fine_tuning_evaluation/verb_evaluation_CausalLM_WebNLG_ES_instruct_fine_tuned.py
 ```
 
+### Metrics Computation 
+
+Compute the metrics for the evaluations with:  
+
+```bash
+python code/metrics_computation/compute_metrics_instruct.py
+```
+
 ## Evaluation Metrics  
 
 We use the following metrics to assess model performance:  
