@@ -15,6 +15,11 @@ This folder contains code for evaluating data-to-text generation in Spanish and 
 - **fine_tuning_evaluation/**  
   Contains adaptations of the evaluation scripts from `context_learning_evaluation` to assess the performance of the fine-tuned models.
 
+- **fine_tuning/**
+  Contain the metric computation codes:
+  - `compute_metrics_instruct.py` → Computes the metrics for each evaluation entry in a folder of JSON files.
+  - `test_results_instruct.ipynb` → Computes the average metrics for each JSON file.
+
 ## Usage
 
 ### Context Learning Evaluation
