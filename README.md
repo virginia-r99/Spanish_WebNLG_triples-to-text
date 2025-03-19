@@ -43,7 +43,7 @@ Spanish_data-to-text-main
 ├── models_adapters
 │
 ├── results
-│   ├── data_to_text_results.xlsx
+│   ├── spanish_triples_to_text_results.xlsx
 │   ├── context_learning
 │   │   ├── test_1
 │   │   ├── test_2
@@ -51,6 +51,12 @@ Spanish_data-to-text-main
 │   │   ├── test_1
 │   │   ├── test_2
 ```
+
+## Spanish WebNLG
+
+Adaptation to Spanish of the English WebNLG dataset[^1] following a two step methodology: automatic translation of triples and verbalisations followed by a partial manual revision.
+![Spanith WebNLG development methodology](WebNLG_ES_method.png)
+[^1]: [The 2023 WebNLG Shared Task on Low Resource Languages. Overview and Evaluation Results (WebNLG 2023)](https://aclanthology.org/2023.mmnlg-1.6/) (Cripwell et al., MMNLG 2023)
 
 ## Setup  
 
