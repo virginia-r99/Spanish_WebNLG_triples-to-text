@@ -114,7 +114,7 @@ We use the following metrics to assess model performance:
 - **METEOR**  
 - **CHRF++**  
 - **Cosine Similarity**  
-- **BERTScore**  
+- **BERTScore Precision, Recall and F1**  
 
 Results are saved in `results/context_learning/` and `results/fine_tuning/`.  
 
