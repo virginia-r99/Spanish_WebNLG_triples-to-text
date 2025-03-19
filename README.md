@@ -4,15 +4,16 @@
 
 This repository contains the resources presented in **Exploring LLM-based Triple-to-Text Generation in Spanish: A WebNLG-Based Approach**. Specifically, we present **Spanish WebNLG dataset** and the corresponding code for **Spanish Data-to-Text Generation** using various low-resource language models. We evaluate models using **context learning** and **fine-tuning**, comparing their performance on structured data representation tasks. The dataset follows the **WebNLG_ES format**, structured into different triples sets for **train**, **dev**, and **test** splits.  
 
-We measure performance using **BLEU, METEOR, CHRF++, Cosine Similarity, and BERTScore**.  
+We measure performance using **BLEU, METEOR, CHRF++, Cosine Similarity, and BERTScore Precision, Recall and F1**.  
 
 ## Repository Structure  
 
 ```
-Spanish_data-to-text-main
+Spanish_WebNLG_triples-to-text
 │   LICENSE
 │   README.md
 │   requirements.txt
+│   WebNLG_ES_method.png
 │
 ├── code
 │   ├── context_learning_evaluation
@@ -43,13 +44,20 @@ Spanish_data-to-text-main
 ├── models_adapters
 │
 ├── results
-│   ├── spanish_triples_to_text_results.xlsx
+│   ├── average_triples_to_text_results.xlsx
 │   ├── context_learning
-│   │   ├── test_1
-│   │   ├── test_2
+│   │   ├── Spanish
+│   │   │   ├── test_1
+│   │   │   ├── test_2
+│   │   ├── English
+│   │   │   ├── test_1
+│   │   │   ├── test_2
 │   ├── fine_tuning
-│   │   ├── test_1
-│   │   ├── test_2
+│   │   │   ├── test_1
+│   │   │   ├── test_2
+│   │   ├── English
+│   │   │   ├── test_1
+│   │   │   ├── test_2
 ```
 
 ## Spanish WebNLG
@@ -70,7 +78,7 @@ pip install -r requirements.txt
 
 ### Data Preparation  
 
-The dataset is structured into **train**, **dev**, and **test** sets, with different numbers of RDF triples per sample.  
+The dataset is structured into **train**, **dev**, and **test** sets, with different number of RDF triples per sample.  
 
 ## Model Training & Evaluation  
 
@@ -116,7 +124,7 @@ We use the following metrics to assess model performance:
 - **Cosine Similarity**  
 - **BERTScore Precision, Recall and F1**  
 
-Results are saved in `results/context_learning/` and `results/fine_tuning/`.  
+Full Spanish and English results are saved in `results/context_learning/` and `results/fine_tuning/`.  Average results are presented in `results/average_triples_to_text_results.xlsx`
 
 ## License  
 
