@@ -2,7 +2,7 @@
 
 ## Overview  
 
-This repository contains the resources presented in **Exploring LLM-based Triple-to-Text Generation in Spanish: A WebNLG-Based Approach**. Specifically, we present **Spanish WebNLG dataset** and the corresponding code for **Spanish Data-to-Text Generation** using various low-resource language models. We evaluate models using **context learning** and **fine-tuning**, comparing their performance on structured data representation tasks. The dataset follows the **WebNLG_ES format**, structured into different triples sets for **train**, **dev**, and **test** splits.  
+This repository contains the resources presented in **Spanish Triple-to-Text Benchmark on Low-Resource Large Language Models**. Specifically, we present **Spanish WebNLG dataset** and the corresponding code for **Spanish Data-to-Text Generation** using various low-resource language models. We evaluate models using **context learning** and **fine-tuning**, comparing their performance on structured data representation tasks. The dataset follows the **WebNLG_ES format**, structured into different triples sets for **train**, **dev**, and **test** splits.  
 
 We measure performance using **BLEU, METEOR, CHRF++, Cosine Similarity, and BERTScore Precision, Recall and F1**.  
 
