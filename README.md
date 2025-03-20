@@ -132,10 +132,14 @@ This repository is licensed under the **GNU General Public License v3.0 (GPL-3.0
 
 ## Citation  
 
-If you use this dataset or code, please cite:  
+If you use this dataset or code, please cite: 
 
 ```
 Technical publication on development.
 ```
+
+## Contact
+
+ To contact the developers, please write to [virginia.ramon@upm.es](mailto:virginia.ramon@upm.es)
 
 ---
