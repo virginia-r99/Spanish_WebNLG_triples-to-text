@@ -1,4 +1,4 @@
-# Exploring LLM-based Triple-to-Text Generation in Spanish: A WebNLG-Based Approach  
+# Spanish Triple-to-Text Benchmark on Low-Resource Large Language Models
 
 ## Overview  
 
